@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Image Transformation</title>
+</head>
+<body>
+    <div id="left-side" class="main">
+        <button id="upload-btn">Upload Image</button>
+        <div id="preview">
+            <div id="container">
+                <img id="preview-img" src="../assets/material1.jpg" alt="Preview Image">
+                <div id="overlay"></div>
+            </div>
+            <div class="toolbar">
+                <button id="triangleBtn0">
+                    <svg viewBox="0 0 100 100" width="100" height="100">
+                        <polygon points="20 67.294, 80 67.294, 80 32.68" fill="none" stroke="#1d1d1f"
+                            stroke-width="1" />
+                    </svg>
+                </button>
+                <button id="rectangleBtn">
+                    <svg viewBox="0 0 100 100" width="100" height="100">
+                        <rect x="20" y="31.46" width="60" height="37.08" fill="none" stroke="#1d1d1f" stroke-width="1">
+                        </rect>
+                    </svg>
+                </button>
+                <button id="triangleBtn1">
+                    <svg viewBox="0 0 100 100" width="100" height="100">
+                        <polygon points="30 70, 70 70, 70 30" fill="none" stroke="#1d1d1f" stroke-width="1" />
+                    </svg>
+                </button>
+                <button id="triangleBtn2">
+                    <svg viewBox="0 0 100 100" width="100" height="100">
+                        <polygon points="30 67.294, 70 67.294, 50 32.68" fill="none" stroke="#1d1d1f"
+                            stroke-width="1" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="right-side" class="main">
+        <!-- <button id="download-btn">Save Image</button> -->
+        <div id="result"></div>
+        <div id="product-pic"></div>
+    </div>
+    <script src="../js/index.js"></script>
+</body>
+</html>
